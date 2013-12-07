@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView android:layout_height="fill_parent" 
+android:layout_width="fill_parent" 
+android:paddingBottom="11sp"
+ android:paddingRight="11sp" 
+ android:paddingLeft="11sp" 
+ xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout android:layout_height="wrap_content"
+     android:layout_width="match_parent" 
+     android:orientation="vertical">
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:text="About DateSpot\n" android:textSize="30sp" 
+    android:textStyle="bold"/>
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:text="\nHow To Use:" 
+    android:textSize="22sp"/>
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:text="\n+ SPOTS TAB\n\n  Map marker colors indicate status:\n     • Green = Currently open\n     • Yellow = Closing in less than 30 mins\n     • Red = Currently closed\n" 
+     android:textSize="16sp"/>
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:text="\n+ LIST TAB\n\n  Displays contact info for all DateSpots.\n\n     *More Features Coming Soon*\n       • List Sorting\n       • Reservations\n       • Ratings and Feedback\n       • Hot DateSpots" 
+     android:textSize="16sp"/>
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" android:text="\n\nSupport:" android:textSize="22sp"/>
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" android:text="\nWe want your feedback. Please send any questions, suggestions or bugs to the Date Spot Boston team at datespotboston@gmail.com." 
+    android:textSize="16sp"/>
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" android:text="\n\nDisclaimer:" android:textSize="22sp"/>
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" android:text="\nThis application is to be used at the user's own risk. The Date Spot Boston team does not guarantee the accuracy of information contained in this app. Including, but not limited to DateSpot locations, opening times, closing times, and establishment names. Some of the images used are taken from Instagramers Boston. All rights to the respective images are held by Instagramers Boston. The developers of this software are not responsible for problems that may result from use of the Date Spot Boston app such as damage to the mobile device or humiliation of being denied by their respective date." 
+      android:textSize="16sp"/>
+
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:text="\nApp Information:" 
+    android:textSize="22sp"/>
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" android:text="\nVersion 1.0.3" 
+    android:textSize="14sp" />
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:text="\nCopyright © 2013 Date Spot Boston. \nAll Rights Reserved." 
+    android:textSize="14sp"
+    android:layout_marginBottom="20sp"/>
+
+<Button android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:text="Legal" 
+    android:id="@+id/legal_button" 
+    android:onClick="legalClick"/>
+
+
+</LinearLayout>
+
+</ScrollView>

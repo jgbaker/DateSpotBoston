@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout 
+    android:weightSum="3" 
+    android:orientation="vertical" 
+    android:gravity="bottom" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<Button 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:text="About" 
+    android:layout_weight="1" 
+    android:id="@+id/legal_button"/>
+
+<Button 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:text="Help" 
+    android:layout_weight="1" 
+    android:id="@+id/help_me"/>
+
+<Button 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    android:text="Settings" 
+    android:layout_weight="1" 
+    android:id="@+id/settings_button"> 
+</Button>
+
+<LinearLayout 
+    android:weightSum="4" 
+    android:orientation="horizontal" 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:layout_weight="1" 
+    android:id="@+id/linear_map_type_list"> 
+</LinearLayout>
+
+</LinearLayout>

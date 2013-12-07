@@ -1,16 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    			xmlns:tools="http://schemas.android.com/tools"
-    			android:layout_width="match_parent"
-    			android:layout_height="match_parent">
+<android.support.v4.app.FragmentTabHost 
+android:layout_height="match_parent" 
+android:layout_width="match_parent" 
+android:id="@android:id/tabhost" 
+xmlns:android="http://schemas.android.com/apk/res/android">
 
-	<fragment 
-          android:id="@+id/map"
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"
-          android:name="com.google.android.gms.maps.MapFragment"/>
 
-          
-</RelativeLayout>
+<LinearLayout android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    android:orientation="vertical">
+    
+    <TabWidget 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:orientation="horizontal"
+    android:layout_weight="0"
+    android:id="@android:id/tabs"/>
 
+
+<FrameLayout android:layout_height="0dp" 
+    android:layout_width="0dp" 
+    android:layout_weight="0"
+    android:id="@android:id/tabcontent"/>
+
+<FrameLayout android:layout_height="0dp" 
+    android:layout_width="match_parent" 
+    android:layout_weight="1"
+    android:id="@+id/realtabcontent"/>
+
+</LinearLayout>
+
+</android.support.v4.app.FragmentTabHost>

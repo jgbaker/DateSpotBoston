@@ -8,4 +8,10 @@
         <!-- API 11 theme customizations can go here. -->
     </style>
 
+	<style name="MyTheme" parent="android:Theme.Holo.NoActionBar">
+    </style>   
+    
+	<style name="MyThemeDialog" parent="android:Theme.Holo.Dialog">
+	</style>
+    
 </resources>

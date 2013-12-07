@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<FrameLayout 
+    android:background="#000000" 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    android:id="@+id/splash_frame_layout" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:orientation="vertical">
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:textColor="#cccccc" 
+    android:gravity="center" 
+    android:text="tap anywhere to start" 
+    android:textSize="16sp" />
+
+<ImageView
+     android:layout_height="fill_parent"
+      android:layout_width="wrap_content" 
+      android:id="@+id/splashscreen" 
+      android:src="@drawable/splash"/>
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:textColor="#cccccc" 
+    android:gravity="center" 
+    android:text="tap to continue"
+    android:textSize="30sp" 
+    android:textStyle="italic" 
+    />
+
+</LinearLayout>
+
+</FrameLayout>

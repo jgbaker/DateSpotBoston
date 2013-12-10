@@ -27,14 +27,15 @@ public class Splash extends FragmentActivity	{
 			public void onClick(View v) {
 				Intent launcher = new Intent(getApplicationContext(),MainActivity.class);
 				launcher.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-				startActivity(launcher);				
+				startActivity(launcher);	
+			//	((globalState) this.getApplication()).setMapState(0);
+				
 			}
 		});
 }
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu){
-		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.activity_main, menu);
 		return true;
 	}

@@ -9,12 +9,90 @@
 <FrameLayout 
     android:layout_height="match_parent" 
     android:layout_width="match_parent" 
-    android:id="@+id/map_container"> 
+    android:layout_weight="1"
+    android:scrollbars="vertical"  
+    class="com.google.android.gms.maps.SupportMapFragment"
+    android:id="@+id/map_container"/> 
+    
+ <RadioGroup 
+        android:id="@+id/radio_group1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal" 
+        android:background="#80000000"
+        android:padding="0dp" >
+
+        <RadioButton
+            android:id="@+id/radioFood"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Food"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:textColor="#ff00ff"
+            android:onClick="onRadioButtonClicked"/>
+            
+        <View
+            android:id="@+id/VerticalLine"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#aaa" />
+
+        <RadioButton
+            android:id="@+id/radioDrink"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Drink"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:textColor="#ff00ff"
+            android:onClick="onRadioButtonClicked"/>
+           
+s
+        <View
+            android:id="@+id/VerticalLine"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#aaa" />
+
+        <RadioButton
+            android:id="@+id/radioFun"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Fun"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:textColor="#ff00ff"
+            android:onClick="onRadioButtonClicked"/>
+            
+        
+        <View
+            android:id="@+id/VerticalLine"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#aaa" />
+
+        <RadioButton
+            android:id="@+id/radioAll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="All"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:textColor="#ff00ff"
+            android:checked="true"
+            android:onClick="onRadioButtonClicked"/>
+            
+ 
+ 
+      
+    </RadioGroup>
+   
+    
+    
 </FrameLayout>
 
-<FrameLayout 
-    android:layout_height="match_parent" 
-    android:layout_width="match_parent" 
-    android:background="@android:color/transparent"/>
-
-</FrameLayout>

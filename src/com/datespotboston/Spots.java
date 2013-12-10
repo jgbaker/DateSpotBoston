@@ -1,20 +1,7 @@
 package com.datespotboston;
 
-//import java.lang.*;
 
 public class Spots {
-	
-	/*List of functions:
-	 * void setHours()
-	 * void setRating()
-	 * 
-	 * String getBuildingName()
-	 * String getAddress()
-	 * double getLatitude()
-	 * double getLongitude()
-	 * boolean isOpen()
-	 * boolean closeSoon()
-	 */
 	
 	private String buildingName;
 	private String address;
@@ -22,35 +9,33 @@ public class Spots {
 	private double longitude;
 	private String[] open;
 	private String[] close;
-	private int rating;
-	private String mapID;
+	private String phone;
+	
 
-	//Constructor
 	//Default constructor
 	public Spots() {
 		this.buildingName = "";
 		this.address = "";
 		this.latitude = 0.0;
 		this.longitude = 0.0;
-		this.rating = 0;
-		this.mapID = "";
 		this.open = new String[7];
 		this.close = new String[7];
 	}
 	
 	//Constructor with input
-	public Spots(String name, String address, double latitude, double longitude, int rating) {
+	public Spots(String name, String address, String phone,  double latitude, double longitude, int rating) {
 		this.buildingName = name;
 		this.address = address;
+		this.phone = phone;
 		this.latitude = latitude;
 		this.longitude = longitude;
-		this.rating = rating;
-		this.mapID = "";
 		this.open = new String[7];
 		this.close = new String[7];
+		
+
 	}
 	
-	//function that sets when the place is open - takes two arrays as inputs
+	//function that sets when the place is open
 	public void setHours(String[] o_hours, String[] c_hours) {
 		String newohours = "";
 		String newchours = "";
@@ -94,6 +79,13 @@ public class Spots {
 		return this.longitude;
 	}
 	
+	//function that returns the phone number
+	public String getPhone() {
+		return this.phone;
+	}
+	
+	
+	
 	//function that checks the hours to determine if the location is open
 	public boolean isOpen(int day, String hour, String minute) {
 		int int_close = 0;
@@ -101,7 +93,7 @@ public class Spots {
 		
 		String str_close = close[day];
 		String str_open = open[day];
-		//check to make sure that minute doesnt need a leading 0
+		//check to make sure that minute doesn't need a leading 0
 		if (minute.length() == 1) {
 			minute = "0" + minute;
 		}
@@ -122,7 +114,7 @@ public class Spots {
 		System.out.println(int_close);
 		System.out.println(int_open);
 		
-		//For post-midnight rollover
+		//For post-midnight roll over
 		if (int_close < 1200) {
 			int_close = int_close + 2400;
 		}
@@ -156,7 +148,7 @@ public class Spots {
 			
 			int_close = Integer.valueOf(str_close);		
 
-			//For post-midnight rollover
+			//For post-midnight
 			if (int_close < 1200) {
 				int_close = int_close + 2400;
 			}
@@ -175,11 +167,16 @@ public class Spots {
 			close_h = int_close/100;
 			close_min = int_close%100;
 			curr_h = Integer.valueOf(hour);
-			return false;
-		}
+			if ((((close_h*60 + close_min) - (curr_h*60 + curr_min)) < 30) && 
+					(((close_h*60 + close_min) - (curr_h*60 + curr_min)) > 0) ) {
+				return true;
+						}
+					
+				return false;
+					}
+				
 
 		public void setMapID(String temp) {
-			// TODO Auto-generated method stub
 			
 		}
 }

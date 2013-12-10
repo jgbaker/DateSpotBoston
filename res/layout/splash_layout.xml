@@ -13,17 +13,12 @@
     android:layout_width="match_parent" 
     android:orientation="vertical">
 
-<TextView 
-    android:layout_height="wrap_content" 
-    android:layout_width="fill_parent" 
-    android:textColor="#cccccc" 
-    android:gravity="center" 
-    android:text="tap anywhere to start" 
-    android:textSize="16sp" />
+
 
 <ImageView
-     android:layout_height="fill_parent"
+     android:layout_height="wrap_content"
       android:layout_width="wrap_content" 
+      android:layout_marginTop="40dp"
       android:id="@+id/splashscreen" 
       android:src="@drawable/splash"/>
 
@@ -31,9 +26,10 @@
     android:layout_height="wrap_content" 
     android:layout_width="fill_parent" 
     android:textColor="#cccccc" 
-    android:gravity="center" 
-    android:text="tap to continue"
-    android:textSize="30sp" 
+    android:gravity="center"
+    android:layout_marginTop="30dp"
+    android:text="tap to find spots"
+    android:textSize="20sp" 
     android:textStyle="italic" 
     />
 

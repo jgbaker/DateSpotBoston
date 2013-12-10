@@ -163,8 +163,9 @@ containing a value of this type.
         public static final int common_signin_btn_light_text_disabled=0x7f040006;
         public static final int common_signin_btn_light_text_focused=0x7f040007;
         public static final int common_signin_btn_light_text_pressed=0x7f040005;
-        public static final int common_signin_btn_text_dark=0x7f04000a;
-        public static final int common_signin_btn_text_light=0x7f04000b;
+        public static final int common_signin_btn_text_dark=0x7f04000b;
+        public static final int common_signin_btn_text_light=0x7f04000c;
+        public static final int magenta=0x7f04000a;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -215,27 +216,40 @@ containing a value of this type.
         public static final int ic_plusone_standard_off_client=0x7f020023;
         public static final int ic_plusone_tall_off_client=0x7f020024;
         public static final int mapgray=0x7f020025;
-        public static final int maptabicon=0x7f020026;
-        public static final int mapwhite=0x7f020027;
-        public static final int settingsgray=0x7f020028;
-        public static final int settingstabicon=0x7f020029;
-        public static final int settingswhite=0x7f02002a;
-        public static final int settingwhite=0x7f02002b;
-        public static final int splash=0x7f02002c;
+        public static final int mapwhite=0x7f020026;
+        public static final int settingsgray=0x7f020027;
+        public static final int settingswhite=0x7f020028;
+        public static final int settingwhite=0x7f020029;
+        public static final int sorttabicon=0x7f02002a;
+        public static final int splash=0x7f02002b;
+        public static final int spottabicon=0x7f02002c;
+        public static final int tab_selected_focused_holo=0x7f02002d;
+        public static final int tab_selected_holo=0x7f02002e;
+        public static final int tab_selected_pressed_holo=0x7f02002f;
+        public static final int tab_unselected_focused_holo=0x7f020030;
+        public static final int tab_unselected_holo=0x7f020031;
+        public static final int tab_unselected_pressed_holo=0x7f020032;
+        public static final int tabselector=0x7f020033;
     }
     public static final class id {
-        public static final int help_me=0x7f050008;
+        public static final int VerticalLine=0x7f05000a;
+        public static final int help_me=0x7f05000e;
         public static final int hybrid=0x7f050004;
         public static final int legal_button=0x7f050005;
-        public static final int linear_map_type_list=0x7f05000a;
+        public static final int linear_map_type_list=0x7f050010;
         public static final int map_container=0x7f050007;
         public static final int none=0x7f050000;
         public static final int normal=0x7f050001;
+        public static final int radioAll=0x7f05000d;
+        public static final int radioDrink=0x7f05000b;
+        public static final int radioFood=0x7f050009;
+        public static final int radioFun=0x7f05000c;
+        public static final int radio_group1=0x7f050008;
         public static final int realtabcontent=0x7f050006;
         public static final int satellite=0x7f050002;
-        public static final int settings_button=0x7f050009;
-        public static final int splash_frame_layout=0x7f05000b;
-        public static final int splashscreen=0x7f05000c;
+        public static final int settings_button=0x7f05000f;
+        public static final int splash_frame_layout=0x7f050011;
+        public static final int splashscreen=0x7f050012;
         public static final int terrain=0x7f050003;
     }
     public static final class integer {
@@ -247,8 +261,7 @@ containing a value of this type.
         public static final int help_layout=0x7f030002;
         public static final int map_layout=0x7f030003;
         public static final int marker_layout=0x7f030004;
-        public static final int settings_layout=0x7f030005;
-        public static final int splash_layout=0x7f030006;
+        public static final int splash_layout=0x7f030005;
     }
     public static final class menu {
         public static final int activity_main=0x7f0a0000;
@@ -351,7 +364,8 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f060013;
-        public static final int hello_world=0x7f06001c;
+        public static final int hnt_et_location=0x7f06001d;
+        public static final int str_btn_find=0x7f06001c;
     }
     public static final class style {
         /** 
@@ -381,6 +395,7 @@ containing a value of this type.
          */
         public static final int AppTheme=0x7f090001;
         public static final int MyTheme=0x7f090002;
+        public static final int MyTheme2=0x7f090004;
         public static final int MyThemeDialog=0x7f090003;
     }
     public static final class styleable {

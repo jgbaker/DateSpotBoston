@@ -2,6 +2,7 @@ package com.datespotboston;
 
 
 
+<<<<<<< HEAD
 //import java.io.IOException;
 //import java.util.List;
 
@@ -22,13 +23,24 @@ import android.view.View;
 //import android.widget.EditText;
 import android.widget.RadioButton;
 //import android.widget.Toast;
+=======
+import android.os.Bundle;
+import com.datespotboston.MapTab;
+import android.support.v4.app.*;
+import android.view.Menu;
+import android.view.View;
+import android.widget.RadioButton;
+>>>>>>> f8e2039f3a79a3f4552739fa142180120f8c6a18
 
 
 public class MainActivity extends FragmentActivity {
 		private FragmentTabHost mTabHost;
 	    static char state = '4';
+<<<<<<< HEAD
 	    MarkerOptions markerOptions;
 	    LatLng latLng;
+=======
+>>>>>>> f8e2039f3a79a3f4552739fa142180120f8c6a18
 	   
 	    public static char getState() {
 			return state;
@@ -123,6 +135,63 @@ public class MainActivity extends FragmentActivity {
 	
     
     
+	public static void onRadioButtonClicked(View view) {
+	    // Is the button now checked?
+	   boolean checked = ((RadioButton) view).isChecked();
+	    // Check which radio button was clicked
+	    switch(view.getId()) {
+	        case R.id.radioFun:
+	            if (checked)
+	                // add fun markers
+	            	state = '1';
+	            for(int i=0;i<128;i++){
+		            MapTab.returnMarkers()[i].setVisible(false);
+	            }
+	            for(int i = 53;i < 92;i++){
+		            MapTab.returnMarkers()[i].setVisible(true);
+	            }
+	            
+	            break;
+	        case R.id.radioFood:
+	            if (checked)
+	                // add food markers
+	            	state ='2';
+	            for(int i=0;i<128;i++){
+		            MapTab.returnMarkers()[i].setVisible(false);
+	            }
+	            for(int i = 0; i < 53; i++){
+	            	MapTab.returnMarkers()[i].setVisible(true);
+	            }
+	            
+	            
+	            break;
+	        case R.id.radioDrink:
+	            if (checked)
+	                // add drink markers
+	            	state ='3';
+	            for(int i=0;i<128;i++){
+		            MapTab.returnMarkers()[i].setVisible(false);
+	            }
+	            for(int i = 92; i < 128; i++){
+	            	MapTab.returnMarkers()[i].setVisible(true);
+	            }
+	            
+	            
+	            break;
+	        case R.id.radioAll:
+	            if (checked)
+	                // add all markers
+	            	state = '4';
+	            for(int i=0;i<128;i++){
+		            MapTab.returnMarkers()[i].setVisible(true);
+	            }
+	            
+	            
+	            break;
+	    }
+	}
+    
+    
     @Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.activity_main, menu);
@@ -148,8 +217,11 @@ public class MainActivity extends FragmentActivity {
 		super.onDestroy();
 	}
 	
+<<<<<<< HEAD
 	
 	//kill process on back button to keep app from crashing
+=======
+>>>>>>> f8e2039f3a79a3f4552739fa142180120f8c6a18
 	@Override
 	public void onBackPressed() {
 		int id = android.os.Process.myPid();
@@ -157,6 +229,7 @@ public class MainActivity extends FragmentActivity {
 	}
 	
 	
+<<<<<<< HEAD
 	
 	
 	
@@ -214,6 +287,8 @@ addresses = geocoder.getFromLocationName(locationName[0], 3);
 	}******/
 	
 	
+=======
+>>>>>>> f8e2039f3a79a3f4552739fa142180120f8c6a18
 }
 
 

@@ -4,6 +4,10 @@
     <string name="app_name">Date Spot</string>
     <string name="action_settings">Settings</string>
     <color name="magenta">#ff00ff</color>
+<<<<<<< HEAD
     <string name="str_btn_find">Find</string>
     <string name="hnt_et_location">Enter location</string>
+=======
+    
+>>>>>>> f8e2039f3a79a3f4552739fa142180120f8c6a18
 </resources>

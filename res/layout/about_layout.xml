@@ -19,12 +19,20 @@
 
 <TextView android:layout_height="wrap_content" 
     android:layout_width="fill_parent" 
+<<<<<<< HEAD
     android:text="\n1. SPOTS TAB \n\n  Find Date Spots by Map Marker. \n\n  Map Marker Status:\n     • Pink is Currently open\n     • Orange is Closing within 30 minutes\n     • Blue is Currently closed\n" 
+=======
+    android:text="\n1. SPOTS TAB \n\n  Find Date Spots by Map Marker. \n\n   Map Marker Status:\n     • Pink is Currently open\n     • Orange is Closing within 30 minutes\n     • Blue is Currently closed\n" 
+>>>>>>> f8e2039f3a79a3f4552739fa142180120f8c6a18
      android:textSize="16sp"/>
 
 <TextView android:layout_height="wrap_content" 
     android:layout_width="fill_parent" 
+<<<<<<< HEAD
     android:text="\n2. CATEGORIES INCLUDE: \n\n  *FUN*\n      • Recreation\n      • Entertainment\n      • Shopping\n\n  *FOOD*\n      • Restaurants\n      • Cafes\n      • Desserts\n\n  *DRINK*\n      • Bars\n      • Pubs\n      • Clubs\n\n\n" 
+=======
+    android:text="\n2. CATEGORIES INCLUDE: \n\n*FUN*\n      • Recreation\n      • Entertainment\n      • Shopping\n\n*FOOD*\n      • Restaurants\n      • Cafes\n      • Desserts\n\n*DRINK*\n      • Bars\n      • Pubs\n      • Clubs\n\n\n" 
+>>>>>>> f8e2039f3a79a3f4552739fa142180120f8c6a18
      android:textSize="16sp"/>
 
 <TextView android:layout_height="wrap_content" 

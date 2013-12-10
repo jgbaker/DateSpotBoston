@@ -233,11 +233,19 @@ containing a value of this type.
     }
     public static final class id {
         public static final int VerticalLine=0x7f05000a;
+<<<<<<< HEAD
+=======
+        public static final int bar_pub=0x7f050011;
+        public static final int cafe=0x7f050012;
+        public static final int dessert=0x7f050013;
+        public static final int entertainment=0x7f050014;
+>>>>>>> f8e2039f3a79a3f4552739fa142180120f8c6a18
         public static final int help_me=0x7f05000e;
         public static final int hybrid=0x7f050004;
         public static final int legal_button=0x7f050005;
         public static final int linear_map_type_list=0x7f050010;
         public static final int map_container=0x7f050007;
+        public static final int nightlife=0x7f050015;
         public static final int none=0x7f050000;
         public static final int normal=0x7f050001;
         public static final int radioAll=0x7f05000d;
@@ -246,10 +254,18 @@ containing a value of this type.
         public static final int radioFun=0x7f05000c;
         public static final int radio_group1=0x7f050008;
         public static final int realtabcontent=0x7f050006;
+        public static final int recreation=0x7f050016;
+        public static final int restaurants=0x7f050017;
         public static final int satellite=0x7f050002;
         public static final int settings_button=0x7f05000f;
+<<<<<<< HEAD
         public static final int splash_frame_layout=0x7f050011;
         public static final int splashscreen=0x7f050012;
+=======
+        public static final int shopping=0x7f050018;
+        public static final int splash_frame_layout=0x7f050019;
+        public static final int splashscreen=0x7f05001a;
+>>>>>>> f8e2039f3a79a3f4552739fa142180120f8c6a18
         public static final int terrain=0x7f050003;
     }
     public static final class integer {
@@ -261,7 +277,12 @@ containing a value of this type.
         public static final int help_layout=0x7f030002;
         public static final int map_layout=0x7f030003;
         public static final int marker_layout=0x7f030004;
+<<<<<<< HEAD
         public static final int splash_layout=0x7f030005;
+=======
+        public static final int sort_layout=0x7f030005;
+        public static final int splash_layout=0x7f030006;
+>>>>>>> f8e2039f3a79a3f4552739fa142180120f8c6a18
     }
     public static final class menu {
         public static final int activity_main=0x7f0a0000;
@@ -364,8 +385,11 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f060013;
+<<<<<<< HEAD
         public static final int hnt_et_location=0x7f06001d;
         public static final int str_btn_find=0x7f06001c;
+=======
+>>>>>>> f8e2039f3a79a3f4552739fa142180120f8c6a18
     }
     public static final class style {
         /** 

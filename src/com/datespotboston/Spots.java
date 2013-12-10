@@ -131,7 +131,7 @@ public class Spots {
 	//function that checks the hours to see if it closes within a half hour
 		public boolean closeSoon(int day, String hour, String minute) {
 			int int_close = 0;
-			String str_close = close[day];
+			String str_close = c_hours[day];
 			int cl_hour = 0;
 			int cl_minute = 0;
 			

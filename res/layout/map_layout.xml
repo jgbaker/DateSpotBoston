@@ -20,7 +20,11 @@
         android:layout_height="48dp"
         android:orientation="horizontal" 
         android:background="#80000000"
+<<<<<<< HEAD
         android:padding="0dp" >
+=======
+        android:padding="4dp" >
+>>>>>>> f8e2039f3a79a3f4552739fa142180120f8c6a18
 
         <RadioButton
             android:id="@+id/radioFood"
@@ -91,7 +95,12 @@ s
  
       
     </RadioGroup>
+<<<<<<< HEAD
    
+=======
+    
+    
+>>>>>>> f8e2039f3a79a3f4552739fa142180120f8c6a18
     
     
 </FrameLayout>

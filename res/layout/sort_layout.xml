@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView android:layout_height="fill_parent" 
+ android:layout_width="fill_parent" 
+ android:paddingBottom="11sp"
+ android:paddingRight="11sp" 
+ android:paddingLeft="11sp" 
+ xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout android:layout_height="wrap_content"
+     android:layout_width="match_parent" 
+     android:orientation="vertical">
+
+<Button android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:layout_marginTop="20dp"
+    android:text="Bars/Pubs" 
+    android:id="@+id/bar_pub" 
+    android:onClick="click"/>
+
+<Button android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+        android:layout_marginTop="20dp"
+    
+    android:text="Café" 
+    android:id="@+id/cafe" 
+    android:onClick="click"/>
+
+<Button android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+        android:layout_marginTop="20dp"
+    
+    android:text="Dessert" 
+    android:id="@+id/dessert" 
+    android:onClick="click"/>
+
+<Button android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+        android:layout_marginTop="20dp"
+    
+    android:text="Entertainment" 
+    android:id="@+id/entertainment" 
+    android:onClick="click"/>
+
+<Button android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+        android:layout_marginTop="20dp"
+    
+    android:text="Nightlife" 
+    android:id="@+id/nightlife" 
+    android:onClick="click"/>
+
+<Button android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+        android:layout_marginTop="20dp"
+    
+    android:text="Recreation" 
+    android:id="@+id/recreation" 
+    android:onClick="click"/>
+
+<Button android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+        android:layout_marginTop="20dp"
+    
+    android:text="Restaurants" 
+    android:id="@+id/restaurants" 
+    android:onClick="click"/>
+
+<Button android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+        android:layout_marginTop="20dp"
+    
+    android:text="Shopping" 
+    android:id="@+id/shopping" 
+    android:onClick="click"/>
+
+
+</LinearLayout>
+
+</ScrollView>

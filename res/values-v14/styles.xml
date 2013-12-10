@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme for API 14+. This theme completely replaces
@@ -9,7 +9,17 @@
         <!-- API 14 theme customizations can go here. -->
     </style>
 
+   
+    <style name="MyTheme2" parent="android:Theme.Holo.NoActionBar">
+    </style>
+    
 	<style name="MyTheme" parent="android:Theme.Holo.NoActionBar">
+	<!--    
+	
+	 <item name="android:windowBackground">@color/custom1</item>
+	    <item name="android:colorBackground">@color/custom1</item>--> 
+	            <item name="android:tabStripLeft">@drawable/tabselector</item>
+	    
     </style>
     
 	<style name="MyThemeDialog" parent="android:Theme.Holo.Dialog">
